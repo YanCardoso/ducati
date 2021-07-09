@@ -1,0 +1,26 @@
+.bike-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    font-family: "Lato", sans-serif;
+    color: #f1f1f1;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 240px;
+    position: absolute;
+    z-index: 99;
+    text-shadow: 0 4px 32px rgba($color: #000000, $alpha: 0.8);
+  }
+
+  img {
+    position: absolute;
+    z-index: 100;
+    max-width: 1050px;
+    max-height: 650px;
+    width: 100%;
+    height: auto;
+  }
+}

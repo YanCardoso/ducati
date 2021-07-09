@@ -1,0 +1,102 @@
+.card-container {
+  display: flex;
+  position: relative;
+  top: 420px;
+  height: 446px;
+  z-index: 98;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+
+  .card-content {
+    background-color: #f1f1f1;
+    position: relative;
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+
+    .vibe-text {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      position: absolute;
+      height: 100px;
+      width: 360px;
+      bottom: 72px;
+      right: 85px;
+
+      span {
+        font-family: "Italianno", sans-serif;
+        font-size: 50px;
+        color: #707070;
+        line-height: 51px;
+        letter-spacing: 0.135em;
+      }
+
+      span + span {
+        text-align: end;
+      }
+    }
+
+    .details-container {
+      display: flex;
+      position: absolute;
+      flex: 1;
+      flex-direction: column;
+      width: 238px;
+      height: auto;
+
+      top: 44px;
+      left: 80px;
+
+      div {
+        margin-bottom: 15px;
+      }
+
+      .itens {
+        h2 {
+          font-family: "Lato", sans-serif;
+          font-weight: 300;
+          font-size: 12px;
+          margin-bottom: 4px;
+        }
+
+        span {
+          font-family: "Lato", sans-serif;
+          font-weight: 900;
+          font-size: 24px;
+          letter-spacing: 0.095em;
+        }
+      }
+    }
+
+    .color-container {
+      display: flex;
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+      bottom: 90px;
+      height: 90px;
+      width: 385px;
+      justify-content: space-between;
+
+      button {
+        border-radius: 16px;
+        border: none;
+        height: 90px;
+        width: 90px;
+      }
+
+      .btn1 {
+        background-color: #DF1F26;
+      }
+      .btn2 {
+        background-color: #141414;
+      }
+      .btn3 {
+        background-color: #E4E4E4;
+      }
+    }
+  }
+}
