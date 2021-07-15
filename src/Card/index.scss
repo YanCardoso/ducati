@@ -1,101 +1,190 @@
 .card-container {
   display: flex;
   position: relative;
-  top: 420px;
-  height: 446px;
   z-index: 98;
   align-items: center;
   justify-content: center;
-  padding: 0 80px;
+  bottom: 200px;
 
   .card-content {
     background-color: #f1f1f1;
+    display: flex;
     position: relative;
+    justify-content: space-evenly;
     max-width: 1440px;
-    height: 100%;
     width: 100%;
     border-radius: 50px;
-
-    .vibe-text {
-      display: flex;
-      flex: 1;
-      flex-direction: column;
-      position: absolute;
-      height: 100px;
-      width: 360px;
-      bottom: 72px;
-      right: 85px;
-
-      span {
-        font-family: "Italianno", sans-serif;
-        font-size: 50px;
-        color: #707070;
-        line-height: 51px;
-        letter-spacing: 0.135em;
-      }
-
-      span + span {
-        text-align: end;
-      }
-    }
+    padding: 20px;
 
     .details-container {
       display: flex;
-      position: absolute;
-      flex: 1;
-      flex-direction: column;
-      width: 238px;
-      height: auto;
+      max-width: 238px;
 
-      top: 44px;
-      left: 80px;
+      .details {
+        display: flex;
+        position: relative;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
 
-      div {
-        margin-bottom: 15px;
-      }
-
-      .itens {
-        h2 {
-          font-family: "Lato", sans-serif;
-          font-weight: 300;
-          font-size: 12px;
-          margin-bottom: 4px;
+        div {
+          margin-bottom: 15px;
         }
 
-        span {
-          font-family: "Lato", sans-serif;
-          font-weight: 900;
-          font-size: 24px;
-          letter-spacing: 0.095em;
+        .itens {
+          h2 {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-size: 1.2rem;
+            margin-bottom: 0.4rem;
+          }
+
+          span {
+            font-family: "Lato", sans-serif;
+            font-weight: 900;
+            font-size: 2.4rem;
+            letter-spacing: 0.095em;
+          }
         }
       }
     }
 
     .color-container {
       display: flex;
-      position: absolute;
-      right: 50%;
-      transform: translateX(50%);
-      bottom: 90px;
-      height: 90px;
-      width: 385px;
-      justify-content: space-between;
+      position: relative;
+      max-width: 385px;
+      width: 100%;
+      height: inherit;
+      align-items: flex-end;
 
-      button {
-        border-radius: 16px;
-        border: none;
-        height: 90px;
-        width: 90px;
+      .colors {
+        display: flex;
+        position: relative;
+        height: 9rem;
+        width: inherit;
+        justify-content: space-evenly;
+        bottom: 94px;
+
+        button {
+          border-radius: 16px;
+          border: none;
+          width: 9rem;
+        }
+
+        .btn1 {
+          background-color: #df1f26;
+        }
+        .btn2 {
+          background-color: #141414;
+        }
+        .btn3 {
+          background-color: #e4e4e4;
+        }
+      }
+    }
+
+    .vibe-container {
+      display: flex;
+      align-items: flex-end;
+      height: inherit;
+      max-width: 340px;
+
+      .vibe {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 100px;
+        width: 360px;
+        bottom: 73px;
+
+        span {
+          font-family: "Italianno", sans-serif;
+          font-size: 5rem;
+          color: #707070;
+          line-height: 5.1rem;
+          letter-spacing: 0.135em;
+        }
+
+        span + span {
+          text-align: end;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1155px) {
+  .card-container {
+    .card-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+
+      .details-container {
+        text-align: center;
+
+        .details {
+          margin-top: 140px;
+        }
       }
 
-      .btn1 {
-        background-color: #DF1F26;
+      .color-container {
+        .colors {
+          position: initial !important;
+        }
       }
-      .btn2 {
-        background-color: #141414;
+
+      .vibe-container {
+        .vibe {
+          position: initial !important;
+        }
       }
-      .btn3 {
-        background-color: #E4E4E4;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    bottom: 100px;
+    .card-content {
+      .details-container {
+        text-align: center;
+
+        .details {
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .card-container {
+    bottom: 0px;
+
+    .card-content {
+      .details-container {
+        .details {
+          margin-top: 20px;
+        }
+      }
+      .color-container {
+        height: 8rem;
+
+        .colors {
+
+          button {
+            height: 8rem;
+            width: 8rem;
+          }
+          
+        }
+      }
+
+      .vibe-container {
+        .vibe {
+          width: 260px;
+        }
       }
     }
   }

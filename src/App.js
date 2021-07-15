@@ -1,9 +1,10 @@
 import Header from "./Header/index";
 
-import "./App.scss";
 import Logo from "./Logo";
 import Bike from "./Bike";
 import Card from "./Card";
+
+import "./App.scss";
 
 function App() {
   return (
