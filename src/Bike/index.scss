@@ -20,18 +20,26 @@
     z-index: 100;
     max-width: 1050px;
     min-width: 300px;
-    max-height: 650px;
+    min-height: 260px;
     width: 100%;
     object-position: center;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 425px) {
   .bike-container {
-
     img {
       top: 50px;
     }
 
+  }
+}
+
+@media (max-width: 320px) {
+  .bike-container {
+    img {
+      min-height: 240px;
+    }
   }
 }
