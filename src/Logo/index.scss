@@ -15,5 +15,15 @@
 
     .monsterLogo {
         width: 322px;
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo-container {
+        .monsterLogo {
+            width: 300px;
+            
+        }
     }
 }

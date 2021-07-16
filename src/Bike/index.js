@@ -1,11 +1,11 @@
 import './index.scss'
-import m1 from '../assets/M1.png'
+import { bikes } from '../Details';
 
-function Bike() {
+function Bike({bike}) {
   return (
       <div className="bike-container">
-            <span>797</span>
-            <img src={m1} alt="Bike"/>
+            <span>{bikes[bike].model}</span>
+            <img src={bikes[bike].img} alt="Bike"/>
       </div>
   );
 }
