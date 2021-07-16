@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/ducati/static/css/main.d2bfe91d.chunk.css",
-    "main.js": "/ducati/static/js/main.faad9e8d.chunk.js",
-    "main.js.map": "/ducati/static/js/main.faad9e8d.chunk.js.map",
+    "main.css": "/ducati/static/css/main.c4d485d2.chunk.css",
+    "main.js": "/ducati/static/js/main.ece3561a.chunk.js",
+    "main.js.map": "/ducati/static/js/main.ece3561a.chunk.js.map",
     "runtime-main.js": "/ducati/static/js/runtime-main.70520817.js",
     "runtime-main.js.map": "/ducati/static/js/runtime-main.70520817.js.map",
-    "static/js/2.286363ad.chunk.js": "/ducati/static/js/2.286363ad.chunk.js",
-    "static/js/2.286363ad.chunk.js.map": "/ducati/static/js/2.286363ad.chunk.js.map",
+    "static/js/2.2e3ccf17.chunk.js": "/ducati/static/js/2.2e3ccf17.chunk.js",
+    "static/js/2.2e3ccf17.chunk.js.map": "/ducati/static/js/2.2e3ccf17.chunk.js.map",
     "index.html": "/ducati/index.html",
-    "static/css/main.d2bfe91d.chunk.css.map": "/ducati/static/css/main.d2bfe91d.chunk.css.map",
-    "static/js/2.286363ad.chunk.js.LICENSE.txt": "/ducati/static/js/2.286363ad.chunk.js.LICENSE.txt",
+    "static/css/main.c4d485d2.chunk.css.map": "/ducati/static/css/main.c4d485d2.chunk.css.map",
+    "static/js/2.2e3ccf17.chunk.js.LICENSE.txt": "/ducati/static/js/2.2e3ccf17.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ducati/static/media/BG.b5c6558a.png",
-    "static/media/M1.a5cb03c6.png": "/ducati/static/media/M1.a5cb03c6.png",
+    "static/media/M0.a5cb03c6.png": "/ducati/static/media/M0.a5cb03c6.png",
+    "static/media/M1.fd06d818.png": "/ducati/static/media/M1.fd06d818.png",
+    "static/media/M2.0ec3c84a.png": "/ducati/static/media/M2.0ec3c84a.png",
     "static/media/Monster-MY18-01-Model-Preview-Logotipo.00b9ad20.svg": "/ducati/static/media/Monster-MY18-01-Model-Preview-Logotipo.00b9ad20.svg",
     "static/media/ducati_id1.ab921024.svg": "/ducati/static/media/ducati_id1.ab921024.svg",
     "static/media/ww1.c872c116.svg": "/ducati/static/media/ww1.c872c116.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.70520817.js",
-    "static/js/2.286363ad.chunk.js",
-    "static/css/main.d2bfe91d.chunk.css",
-    "static/js/main.faad9e8d.chunk.js"
+    "static/js/2.2e3ccf17.chunk.js",
+    "static/css/main.c4d485d2.chunk.css",
+    "static/js/main.ece3561a.chunk.js"
   ]
 }
